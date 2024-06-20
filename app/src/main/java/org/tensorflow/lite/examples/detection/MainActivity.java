@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Instance for opening about page when about btn is clicked
+                // Instance for opening about page when about button is clicked
                 Intent intent = new Intent(MainActivity.this,AboutPage.class);
                 startActivity(intent);
             }
